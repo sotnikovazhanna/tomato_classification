@@ -102,8 +102,8 @@ tomato-classification/
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/sotnikovazhanna/tomato-classification.git
-cd tomato-classification
+git clone https://github.com/sotnikovazhanna/tomato_classification.git
+cd tomato_classification
 ```
 
 ### 2. Создание окружения
