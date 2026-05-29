@@ -58,7 +58,42 @@
 | XGBoost | 99.62% | 99.65% | 99.65% | 0.9965 | 0.40 мин | 1 | 1 |
 
 
-
+---
+## Структура проекта
+````
+tomato-classification/
+├── data/ 
+│ └── processed/
+│ ├── healthy/ # здоровые листья (1591)
+│ └── late_blight/ # листья с фитофторозом (1909)
+│
+├── src/ 
+│ ├── models/ 
+│ │ ├── custom_cnn_model.keras
+│ │ ├── random_forest.pkl
+│ │ ├── svm_model.pkl
+│ │ └── xgboost_model.pkl
+│ ├── results/ 
+│ │ ├── custom_cnn_confusion_matrix.png
+│ │ ├── custom_cnn_training_history.png
+│ │ ├── final_comparison.png
+│ │ ├── final_results_table.csv
+│ │ ├── quality_metrics_chart.png
+│ │ ├── random_forest_matrix_correct.png
+│ │ ├── svm_confusion_matrix.png
+│ │ └── xgboost_matrix_correct.png
+│ ├── preprocessing.py 
+│ ├── feature_extraction.py 
+│ ├── svm_model.py 
+│ ├── random_forest_model.py 
+│ ├── xgboost_model.py 
+│ ├── custom_cnn.py 
+│ └── final_comparison.py 
+│
+├── requirements.txt 
+├── .gitignore 
+└── README.md 
+````
 
 
 
