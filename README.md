@@ -66,7 +66,7 @@ tomato-classification/
 │ └── processed/
 │ ├── healthy/ # здоровые листья (1591)
 │ └── late_blight/ # листья с фитофторозом (1909)
-│
+├── paper/  
 ├── src/ 
 │ ├── models/ 
 │ │ ├── custom_cnn_model.keras
